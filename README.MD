@@ -10,12 +10,15 @@
 模拟dubbo提供端, 现实情况中, 一般是业务的服务端.
 
 ##### 模块之前的依赖关系
-```
-client-->share
+```bash
+client
+    \-->share
 
-service-consumer-->client
+service-consumer
+            \-->client
 
-service-provider-->share
+service-provider
+            \-->share
 ```
 
 ##### 最后
