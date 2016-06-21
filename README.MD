@@ -11,16 +11,11 @@
 
 ##### 模块之前的依赖关系
 ```
-graph LR
-  client-->share
-```
-```
-graph LR
-  service-consumer-->client
-```
-```
-graph LR
-  service-provider-->share
+client-->share
+
+service-consumer-->client
+
+service-provider-->share
 ```
 
 ##### 最后
